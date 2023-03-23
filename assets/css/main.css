@@ -1,0 +1,26 @@
+@media (max-width: 576px) {
+  .c-cards {
+    flex-direction: column;
+  }
+}
+
+.c-cards {
+  gap: 35px;
+}
+.c-cards .card-img-top {
+  height: 200px;
+  object-fit: contain;
+}
+
+.c-cards .card-body {
+  margin-top: 20px;
+}
+
+.c-cards .card-body .card-title {
+  margin-bottom: 20px;
+}
+
+.c-cards .card-body img {
+  width: 25px;
+  margin-right: 15px;
+}
